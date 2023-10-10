@@ -15,7 +15,6 @@ export default function Navbar (){
    
    
         </nav>
-        <h1>This is Navbar</h1>
         </div>
     )
 }
