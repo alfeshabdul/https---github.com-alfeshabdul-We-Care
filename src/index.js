@@ -16,16 +16,16 @@ const router = createBrowserRouter([
   {path: '/',
    element:<HomePage/>
   },
-  {path:'/Campaigns',
+  {path:'/campaigns',
    element:<Campaigns/>
   },
-  {path:'/TeamMembers',
+  {path:'/teammembers',
   element:<Team/>
  },
- {path:'/Volunteer',
+ {path:'/volunteer',
   element:<Volunteer/>
  },
- {path:'/DonationPage',
+ {path:'/donationPage',
   element:<Donation/>
  }
 
