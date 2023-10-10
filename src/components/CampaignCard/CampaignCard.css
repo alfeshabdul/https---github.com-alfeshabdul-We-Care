@@ -1,0 +1,38 @@
+
+
+.campaign-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campaign-card h2 {
+    font-size: 1.2em;
+  }
+  
+  .campaign-details {
+    margin-top: 15px;
+  }
+  
+  .campaign-card button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .campaign-card button:hover {
+    background-color: #45a049;
+  }
+  

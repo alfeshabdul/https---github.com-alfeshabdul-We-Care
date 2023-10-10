@@ -27,6 +27,7 @@
     text-decoration: none;
     color: rgb(255, 0, 0);
     font-weight: bolder;
+    font-size: 21px;
   }
   
   .nav-item:last-child {
