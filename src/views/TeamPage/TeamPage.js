@@ -1,11 +1,11 @@
 import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
 
-function Volunteer(){
+function Team(){
     return(
        <div>
           <Navbar/>
-         <h1>Volunteer Page</h1>
+         <h1>Team Page</h1>
           <Footer/>
        </div>
        
@@ -13,4 +13,4 @@ function Volunteer(){
     )
    }
    
-   export default Volunteer
+   export default Team

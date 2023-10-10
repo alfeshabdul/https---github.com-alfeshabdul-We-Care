@@ -1,5 +1,10 @@
-export default function Footer (){
+import './Footer.css'
+
+export default function Footer(){
     return(
-        <h1>This is Footer</h1>
+        <footer className="footer">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+       </footer>
     )
 }
+
