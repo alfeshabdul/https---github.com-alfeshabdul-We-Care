@@ -1,8 +1,15 @@
+import Footer from "../../components/Footer/Footer"
+import Navbar from "../../components/Navbar/Navbar"
+
 function HomePage (){
  return(
-    <>
-    <h1>THIS IS HOME PAGE</h1>
-    </>
+    <div>
+       <Navbar/>
+      <h1>THIS IS HOME PAGE</h1>
+       <Footer/>
+    </div>
+    
+    
  )
 }
 
