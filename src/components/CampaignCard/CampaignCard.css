@@ -1,4 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100vh;
+}
 
+.tab {
+    width: 100vh;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
 
 .campaign-card {
     background-color: white;
@@ -8,17 +26,17 @@
     margin: 10px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .campaign-card h2 {
+}
+
+.campaign-card h2 {
     font-size: 1.2em;
-  }
-  
-  .campaign-details {
+}
+
+.campaign-details {
     margin-top: 15px;
-  }
-  
-  .campaign-card button {
+}
+
+.campaign-card button {
     background-color: #4caf50;
     color: white;
     border: none;
@@ -30,9 +48,8 @@
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  .campaign-card button:hover {
+}
+
+.campaign-card button:hover {
     background-color: #45a049;
-  }
-  
+}

@@ -1,0 +1,27 @@
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 32, 199);
+}
+.campaigns-page {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .campaigns-container {
+    width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  }
+  
+  .campaigns-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  
