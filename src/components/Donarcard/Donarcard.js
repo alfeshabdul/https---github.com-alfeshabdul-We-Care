@@ -2,6 +2,7 @@ import React from "react";
 import "./Donarcard.css";
 import Certificate from "../Certificate/Certificate";
 import { Link } from "react-router-dom";
+
 function Donarcard({name, mobile, email, amount}){
   return(
     <div className="donar-card"> 
@@ -10,7 +11,7 @@ function Donarcard({name, mobile, email, amount}){
            <p className="donar-email">📧 {email}</p>
            <p className="donar-amount">💸 ₹ {amount}</p>
 
-           <a href ="../Certificate/Certificate" target="blank" className="certificate"> Get Certificate</a>
+           <Link to ="../Certificate/Certificate" target="blank" className="certificate"> Get Certificate</Link>
      </div>
   )
 }

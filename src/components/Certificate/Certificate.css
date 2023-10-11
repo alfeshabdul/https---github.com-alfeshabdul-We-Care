@@ -1,0 +1,60 @@
+.certificate-container{
+    width: 800px;
+    height: 601px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+h2{
+    color: #202060;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    font-size: 22px;
+}
+
+.certificate-header{
+height: 100px;
+background-color: #202060;
+}
+
+.certificate-info{
+    text-align: center;
+    background-color: white;
+}
+
+.certificate-donar-name{
+    background-color: #e6e600;
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.last-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sign{
+    margin-right: 70px;
+}
+
+.date{
+    margin-left: 70px;
+}
+.certificate-footer{
+    background-color: #202060;
+    height: 100px;
+    margin-top: 30px;
+}

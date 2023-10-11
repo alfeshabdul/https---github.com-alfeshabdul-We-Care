@@ -81,13 +81,13 @@ function Donation(){
        <div>
           <Navbar/>
           <div className="container">
-         <h1 className="title">Fund Donation</h1>
+         <h1 className="title">Donation</h1>
 
          <div className="page-body">
 
             <div className="show-donar">
 
-               <h2 className="heading">Show Donar</h2>
+               <h2 className="heading">Our Donars</h2>
                      {
                         donars.map((donar, index)=>{
                            const {name, mobile, email,amount} = donar;
@@ -102,10 +102,10 @@ function Donation(){
 
             <div className="add-donar">
 
-               <h2 className="heading">Add Donar</h2>
+               <h2 className="heading">New Donar</h2>
 
                <form>
-                  <label className="input-label">Enter Name :</label>
+                  <label className="input-label"><h3>Enter Name :</h3></label>
                   <input type="text" 
                   placeholder="Name" 
                   className="user-input" 
@@ -115,7 +115,7 @@ function Donation(){
                   value={name}
                   />
 
-                  <label className="input-label">Enter Mobile No :</label>
+                  <label className="input-label"><h3>Enter Mobile No :</h3></label>
                   <input type="text" 
                   placeholder="Mobile" 
                   className="user-input"
@@ -125,7 +125,7 @@ function Donation(){
                value={mobile}
                />
 
-                 <label className="input-label">Enter Email :</label>
+                 <label className="input-label"><h3>Enter Email :</h3></label>
                   <input type="email" 
                   placeholder="Email" 
                   className="user-input"
@@ -135,7 +135,7 @@ function Donation(){
                value={email}
                />
 
-                  <label className="input-label">Enter Amount :</label>
+                  <label className="input-label"><h3>Enter Amount :</h3></label>
                   <input type="text" 
                   placeholder="Amount" 
                   className="user-input"
