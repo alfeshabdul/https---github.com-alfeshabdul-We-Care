@@ -1,7 +1,7 @@
 import React from "react";
 import "./Donarcard.css";
 import Certificate from "../Certificate/Certificate";
-import { Link } from "react-router-dom";
+
 function Donarcard({name, mobile, email, amount}){
   return(
     <div className="donar-card"> 
