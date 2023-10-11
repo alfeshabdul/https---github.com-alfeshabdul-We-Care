@@ -11,3 +11,12 @@
 .donar-name{
     font-size: 20px;
 }
+
+.certificate{
+    margin-left: 290px;
+    text-decoration: none;
+    background-color: #6666ff;
+    padding: 2px;
+    color: white;
+    cursor: pointer;
+}

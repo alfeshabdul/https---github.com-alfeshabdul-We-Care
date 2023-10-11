@@ -1,11 +1,12 @@
 .footer {
     background: rgba(0, 0, 0, 0.584);
     color: white;
-    text-align: center;
-    position: fixed;
+    padding: 10px;
+   
     bottom: 0;
     width: 100%;
-    text-align: center;
-    justify-content: center;
+    display:flex;
+    justify-content: space-around;
+    font-size: 23px;
   }
   
