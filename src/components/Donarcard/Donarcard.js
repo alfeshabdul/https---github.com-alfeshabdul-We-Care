@@ -1,6 +1,6 @@
 import React from "react";
 import "./Donarcard.css";
-import Certificate from "../Certificate/Certificate";
+import DonationCertificate from "../Certificate/DonatioCertificate";
 import { Link } from "react-router-dom";
 
 function Donarcard({name, mobile, email, amount}){
@@ -11,7 +11,7 @@ function Donarcard({name, mobile, email, amount}){
            <p className="donar-email">📧 {email}</p>
            <p className="donar-amount">💸 ₹ {amount}</p>
 
-           <Link to ="../Certificate/Certificate" target="blank" className="certificate"> Get Certificate</Link>
+           <Link to ="../Certificate/DonationCertificate" target="blank" className="certificate"> Get Certificate</Link>
      </div>
   )
 }
