@@ -1,8 +1,8 @@
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
 import Donarcard from "../../components/Donarcard/Donarcard"
-import './Donation.css'
+import './DonationPage.css'
 import showToast from 'crunchy-toast'
 
 function Donation(){
@@ -21,14 +21,38 @@ function Donation(){
    const [amount, setAmount] = useState('');
 
    const addDonar = () =>{
+
+      if(!name){
+         showToast("Name is required","alert",3000);
+         return;
+      }
+
+      if(!mobile){
+         showToast("Mobile is required","alert",3000);
+         return;
+      }
+
+      if(!email){
+         showToast("Email is required","alert",3000);
+         return;
+      }
+
+      if(!amount){
+         showToast("Amount is required","alert",3000);
+         return;
+      }
+
       const obj ={
          name: name,
          mobile: mobile,
          email: email,
          amount: amount
       }
+      
+      const newDonars = [...donars,obj];
+      setDonars(newDonars);
+      saveToLocalStorage(newDonars);
 
-      setDonars([...donars,obj]);
       showToast("Donar added Successfully", "Success", 3000);
 
       setName('');
@@ -38,6 +62,21 @@ function Donation(){
 
    };
 
+   const saveToLocalStorage =(donarsData) => {
+      localStorage.setItem('donars',JSON.stringify(donars));
+   }
+
+   const loadFromLocalStorage = () =>{
+      const donarsData = JSON.parse(localStorage.getItem('donars'));
+      if(donarsData){
+         setDonars(donarsData);
+      }
+   }
+
+   useEffect(()=>{
+      loadFromLocalStorage();
+   }, [])
+   
     return(
        <div>
           <Navbar/>
