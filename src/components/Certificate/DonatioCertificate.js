@@ -1,6 +1,6 @@
 import React from "react";
-import './Certificate.css'
-function Certificate(){
+import './DonationCertificate.css'
+function DonationCertificate(){
     return(
 
         <div className="certificate-container">
@@ -34,4 +34,4 @@ function Certificate(){
         
     )
 }
-export default Certificate
+export default DonationCertificate
