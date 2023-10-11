@@ -34,3 +34,20 @@
     margin-right: 0;
   }
   
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  }
+  
