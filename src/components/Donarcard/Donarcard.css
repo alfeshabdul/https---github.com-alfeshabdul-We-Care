@@ -15,8 +15,11 @@
 .certificate{
     margin-left: 290px;
     text-decoration: none;
-    background-color: #6666ff;
+    background-color: tomato;
     padding: 2px;
     color: white;
+    
+    border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 0 5px black;
 }
