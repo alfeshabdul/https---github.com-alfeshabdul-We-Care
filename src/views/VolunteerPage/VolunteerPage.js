@@ -2,6 +2,7 @@ import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
 import v1 from './img/v3.jpg'
 import './VolunteerPage.css'
+import { Link} from "react-router-dom"
 
 function Volunteer() {
    return (
@@ -16,7 +17,7 @@ function Volunteer() {
                The smallest act of kindness is worth more than the grandest intention. Alone we can do so little, together we can do so much.
                </p>
                <div className="btn-section">
-                  <button>Donate</button>
+                  <Link to='./DonationPage/DonationPage'><button>Donate</button></Link>
                   <button>Join us</button>
                </div>
             </div>
