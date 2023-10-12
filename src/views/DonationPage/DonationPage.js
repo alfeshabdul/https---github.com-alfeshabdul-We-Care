@@ -102,8 +102,9 @@ function Donation(){
 
             <div className="add-donar">
 
-               <h2 className="donation-heading">New Donar</h2>
-
+               
+               <h2 className="donation-heading"><p className="form-heading">New Donar</p></h2>
+               
                <form>
                   <label className="input-label"><h3>Enter Name :</h3></label>
                   <input type="text" 
