@@ -8,21 +8,21 @@ import Navbar from "../../components/Navbar/Navbar"
 const campaignsData = [
   {
     id: 1,
-    title: 'Clean Water Initiative',
+    title: 'Clean Water Initiative 🌊',
     description: 'Cleaning nearby Waterbodies.',
     goal: 'RUPEES :- 10,000',
     raised: 'RUPEES :- 7,500'
   },
   {
     id: 2,
-    title: 'Education for All',
+    title: 'Education for All 📚',
     description: 'Support education programs at Slums .',
     goal: 'RUPEES :- 15,000',
     raised: 'RUPEES :- 12,200'
   },
   {
     id: 2,
-    title: 'Animal Care',
+    title: 'Animal Care 🐶',
     description: 'Support Street Animals for hunger.',
     goal: 'RUPEES :- 19,000',
     raised: 'RUPEES :- 1,800'
@@ -41,6 +41,7 @@ function Campaigns() {
           ))}
         </div>
       </div>
+      <br></br>
       <Footer />
     </div>
   );
