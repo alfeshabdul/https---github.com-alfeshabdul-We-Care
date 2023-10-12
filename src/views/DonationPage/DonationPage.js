@@ -80,14 +80,14 @@ function Donation(){
     return(
        <div>
           <Navbar/>
-          <div className="container">
-         <h1 className="title">Donation</h1>
+          <div className="donation-page-container">
+         <h1 className="donation-page-title">Donation</h1>
 
-         <div className="page-body">
+         <div className="donation-page-body">
 
             <div className="show-donar">
 
-               <h2 className="heading">Our Donars</h2>
+               <h2 className="donation-heading">Our Donars</h2>
                      {
                         donars.map((donar, index)=>{
                            const {name, mobile, email,amount} = donar;
@@ -102,7 +102,7 @@ function Donation(){
 
             <div className="add-donar">
 
-               <h2 className="heading">New Donar</h2>
+               <h2 className="donation-heading">New Donar</h2>
 
                <form>
                   <label className="input-label"><h3>Enter Name :</h3></label>

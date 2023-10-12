@@ -11,7 +11,7 @@ function Donarcard({name, mobile, email, amount}){
            <p className="donar-email">📧 {email}</p>
            <p className="donar-amount">💸 ₹ {amount}</p>
 
-           <Link to ="../Certificate/DonationCertificate" target="blank" className="certificate"> Get Certificate</Link>
+           <Link to ="../Certificate/DonationCertificate" target="blank" className="get-certificate-btn"> Get Certificate</Link>
      </div>
   )
 }

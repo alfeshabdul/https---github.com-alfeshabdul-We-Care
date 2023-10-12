@@ -1,18 +1,19 @@
-.container{
+.donation-page-container{
     background-color: #ffe6e6;
     margin-top: -20px;
     min-height: 90vh;
+    display: block;
+    
 }
 
-.title{
+.donation-page-title{
     margin-top: 10px;
     text-align: center;
-    color:  #ff33cc;
+    color:  lightseagreent;
     font-size: 30px;
 }
 
-
-.page-body{
+.donation-page-body{
     margin-top: -15px;
     display: flex;
     justify-content: space-around;
@@ -41,7 +42,7 @@
     box-shadow: 0 0 5px black;
 }
 
-.heading{
+.donation-heading{
     text-align: center;
     font-size: 30px;
     
@@ -50,6 +51,8 @@
 .add-donar{
 border: 1px solid black;
 padding: 10px;
-background-color:   #ffffe6;
+background-color: #ffffe6;
 box-shadow: 0 0 5px black;
+
 }
+
