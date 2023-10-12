@@ -28,10 +28,7 @@ const router = createBrowserRouter([
  },
  {path:'/donationPage',
   element:<Donation/>
- },{path:'/explorecampaign',
- element:<ExploreCampaign/>
-}
-
+ }
 ]);
 
 root.render(
