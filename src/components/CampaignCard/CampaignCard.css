@@ -54,10 +54,11 @@
     background-color: #45a049;
 }
 .explore{
+    font-size: 14px;
     text-decoration: none;
     color: black;
     background-color:  lightseagreen;
     border: 1px  black solid;
-    padding: 4px;
+    padding: 5px;
     border-radius: 7px 0px 7px 0px;
 }
