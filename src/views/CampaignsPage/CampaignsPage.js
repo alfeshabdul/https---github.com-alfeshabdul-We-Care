@@ -4,8 +4,11 @@ import CampaignCard from '../../components/CampaignCard/CampaignCard';
 
 import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
+import r1 from './Img/r1.jpg'
+
 
 const campaignsData = [
+  
   {
     id: 1,
     title: 'Clean Water Initiative 🌊',
@@ -33,9 +36,11 @@ function Campaigns() {
   return (
     <div className="campaigns-page">
       <Navbar />
+      
       <div className="campaigns-container">
         <h1 className='heading'>Explore Campaigns</h1>
         <div className="campaigns-list">
+        {/*<img src={r1} className='r-img' alt='EducationImg'/>*/}
           {campaignsData.map(campaign => (
             <CampaignCard key={campaign.id} campaign={campaign} />
           ))}
