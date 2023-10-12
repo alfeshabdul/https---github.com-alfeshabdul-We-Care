@@ -11,7 +11,7 @@ const CampaignCard = ({ campaign }) => {
         <p><strong>Goal:</strong> {campaign.goal}</p>
         <p><strong>Raised:</strong> {campaign.raised}</p>
       </div>
-      <Link to='/explorecampaign' >Explore campaign</Link>
+      <Link className='explore' to='/explorecampaign' >Explore campaign</Link>
     </div>
   );
 };

@@ -53,3 +53,11 @@
 .campaign-card button:hover {
     background-color: #45a049;
 }
+.explore{
+    text-decoration: none;
+    color: black;
+    background-color:  lightseagreen;
+    border: 1px  black solid;
+    padding: 4px;
+    border-radius: 7px 0px 7px 0px;
+}
