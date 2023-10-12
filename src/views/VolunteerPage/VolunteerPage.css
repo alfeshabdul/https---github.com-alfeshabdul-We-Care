@@ -47,6 +47,19 @@
     border:3px solid rgb(7, 113, 108);    
 }
 
+.btn-section button:hover{
+    margin-left: 40px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 7px 20px;
+    background-color: rgb(5, 80, 76);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(43, 63, 62);
+    border:3px solid rgb(5, 80, 76);    
+}
+
 .right-section {
     width: 35%;
     margin-top: 70px;
