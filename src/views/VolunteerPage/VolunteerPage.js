@@ -10,7 +10,7 @@ function Volunteer() {
          <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></link>
          <Navbar />
 
-         {/* <div className="header-section">
+         <div className="header-section">
             <div className="left-section">
                <h1 className="section-heading">We are Volunteers</h1>
                <p className="section-desc">
@@ -24,7 +24,7 @@ function Volunteer() {
             <div className="right-section">
                <img src={v1} className='brand-img' alt='VolunteerImg' />
             </div>
-         </div> */}
+         </div>
          <div className="form-section">
             <div className="card">
                <form>
