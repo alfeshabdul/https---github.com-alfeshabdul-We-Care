@@ -31,7 +31,7 @@ function Volunteer() {
                   <p className="form-heading">Name</p>
                   <input type='text' placeholder='Enter your name' className="form-input" />
                   <p className="form-heading">Email</p>
-                  <input type='text' placeholder='Enter your mail id' className="form-input" />
+                  <input type='text' placeholder='Enter your mail' className="form-input" />
                   <p className="form-heading">Mobile Number</p>
                   <input type='text' placeholder='Enter your mobile no' className="form-input" />
                </form>
