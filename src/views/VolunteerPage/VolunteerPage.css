@@ -85,7 +85,7 @@
     margin: auto;
     align-items: center;
     padding: 30px 20px;
-    background-color: rgba(255, 255, 255, 0.281);
+    background-color: rgba(255, 255, 255, 0.671);
     display: inline-block;
     margin-top: 100px;
     margin-left: 530px;
@@ -113,4 +113,30 @@
     border-bottom: 2px solid black;
     border-top: 2px solid transparent;
     background-color: #c3f8f428; */
+}
+
+.form-btn{
+    margin-top: 40px;
+    margin-left: 85px;
+    background-color: lightseagreen;
+    font-size: 20px;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px rgb(14, 114, 98);
+    border-color: lightseagreen;
+}
+
+.form-btn:hover{
+    margin-top: 40px;
+    margin-left: 85px;
+    background-color: rgb(14, 116, 110);
+    font-size: 20px;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px rgb(27, 159, 137);
+    border-color: rgb(27, 159, 137);
 }

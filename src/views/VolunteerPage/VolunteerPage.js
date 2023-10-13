@@ -34,6 +34,8 @@ function Volunteer() {
                   <input type='text' placeholder='Enter your mail id' className="form-input" />
                   <p className="form-heading">Mobile Number</p>
                   <input type='text' placeholder='Enter your mobile no' className="form-input" />
+
+                  <button className="form-btn">Generate Certificate</button>
                </form>
             </div>
          </div>
