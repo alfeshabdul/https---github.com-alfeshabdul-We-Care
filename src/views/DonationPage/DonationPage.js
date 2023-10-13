@@ -4,6 +4,10 @@ import Navbar from "../../components/Navbar/Navbar"
 import Donarcard from "../../components/Donarcard/Donarcard"
 import './DonationPage.css'
 import showToast from 'crunchy-toast'
+import gpay from './img/gpay.png'
+import phonepay from './img/phonepay.png'
+import pytm from './img/pytm.jpg'
+
 
 function Donation(){
    const [donars, setDonars] = useState([
@@ -101,9 +105,9 @@ function Donation(){
             </div>
 
             <div className="add-donar">
-
-               
-               <h2 className="donation-heading"><p className="form-heading">New Donar</p></h2>
+                
+            
+               <h2 className="donation-heading">New Donar</h2>
                
                <form>
                   <label className="input-label"><h3>Enter Name :</h3></label>
@@ -145,6 +149,23 @@ function Donation(){
                }}
                value={amount}
                />
+
+                  <label className="input-label"><h3>Payment Method:</h3></label>
+
+                  <div className="donation-pay-method">
+                  <input type="radio" name="pay"/>
+                  
+                      <img src={gpay} className="pay-method-imgs"/>
+                  
+
+                  <input type="radio" name="pay"/>
+                  <img src={phonepay} className="pay-method-imgs"/>
+                   
+
+                  <input type="radio" name="pay"/>
+                  <img src={pytm} className="pay-method-imgs"/>
+                    
+                  </div>      
 
                   <button type="button" 
                   className="add-donar-btn" 
