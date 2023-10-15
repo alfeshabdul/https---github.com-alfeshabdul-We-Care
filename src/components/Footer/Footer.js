@@ -11,7 +11,7 @@ export default function Footer(){
                         <h3>WE CARE<span>_AR_GROUPS</span></h3>
         
                         <p class="footer-links">
-                            <Link to="/" class="link-1">Home</Link>
+                            <Link to="/" class="/">Home</Link>
                             
                             <Link to="/campaigns">Campaigns</Link>
                         

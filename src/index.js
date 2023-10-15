@@ -8,6 +8,7 @@ import Team from './views/TeamPage/TeamPage';
 import Donation from './views/DonationPage/DonationPage';
 import Volunteer from './views/VolunteerPage/VolunteerPage';
 import Campaigns from './views/CampaignsPage/CampaignsPage';
+import ExploreCampaign from './views/ExploreCampaign/ExploreCampaign'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -28,7 +29,14 @@ const router = createBrowserRouter( [
  {path:'/donationPage',
   element:<Donation/>
  },
+<<<<<<< HEAD
  
+=======
+ {
+  path:'/exploreCampaign',
+  element:<ExploreCampaign />
+ }
+>>>>>>> c1885ad4bc71b18ce7b1dc51ba217b5c4624d4f4
 ]);
 
 root.render(

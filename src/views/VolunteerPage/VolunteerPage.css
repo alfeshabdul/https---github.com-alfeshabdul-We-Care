@@ -25,16 +25,16 @@
     font-size: 45px;
 }
 
-.section-desc{
+.section-desc {
     margin-top: 20px;
     font-size: 22px;
 }
 
-.btn-section{
+.btn-section {
     margin-top: 30px;
 }
 
-.btn-section button{
+.btn-section button {
     margin-left: 40px;
     border-radius: 5px 5px 5px 5px;
     padding: 7px 20px;
@@ -44,10 +44,10 @@
     font-weight: 500;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px rgb(43, 63, 62);
-    border:3px solid rgb(7, 113, 108);    
+    border: 3px solid rgb(7, 113, 108);
 }
 
-.btn-section button:hover{
+.btn-section button:hover {
     margin-left: 40px;
     border-radius: 5px 5px 5px 5px;
     padding: 7px 20px;
@@ -57,7 +57,7 @@
     font-weight: 500;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px rgb(43, 63, 62);
-    border:3px solid rgb(5, 80, 76);    
+    border: 3px solid rgb(5, 80, 76);
 }
 
 .right-section {
@@ -72,12 +72,12 @@
     /* border: 0.5px solid rgb(178, 178, 178); */
 }
 
-.form-section{
+.form-section {
     background-image: url('img/v4.jpg');
     height: 100vh;
 }
 
-.card{
+.card {
     border-radius: 10px;
     border: 0.5px solid rgba(167, 164, 164, 0);
     box-shadow: 0px 0.5px 2px 0px rgb(80, 79, 79);
@@ -85,13 +85,13 @@
     margin: auto;
     align-items: center;
     padding: 30px 20px;
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(255, 255, 255, 0.683);
     display: inline-block;
     margin-top: 100px;
     margin-left: 530px;
 }
 
-.form-heading{
+.form-heading {
     margin-top: 16px;
     font-size: 20px;
     margin-left: 40px;
@@ -99,7 +99,20 @@
     font-family: 'Poppins';
 }
 
-.form-input{
+.form-input {
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 45px;
+    width: 310px;
+    border: 0.5px solid rgb(119, 118, 118);
+    box-shadow: 0.5px 0.5px 2px 0px rgb(80, 79, 79);
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #90c0bc7a;
+    height: 25px;
+}
+
+.form-input:hover {
     font-size: 18px;
     padding: 5px;
     margin-left: 45px;
@@ -108,11 +121,11 @@
     box-shadow: 0.5px 0.5px 2px 0px rgb(80, 79, 79);
     border-radius: 2px;
     margin-top: 10px;
-    background-color: #c3f8f428;
-    /* border: none;
-    border-bottom: 2px solid black;
-    border-top: 2px solid transparent;
-    background-color: #c3f8f428; */
+    background-color: #a5d6d228;
+}
+
+.form-btn {
+    margin-top: 40px;
 }
 
 .form-btn{
@@ -128,7 +141,7 @@
     border-color: lightseagreen;
 }
 
-.form-btn:hover{
+.form-btn:hover {
     margin-top: 40px;
     margin-left: 85px;
     background-color: rgb(14, 116, 110);
@@ -141,4 +154,99 @@
     border-color: rgb(27, 159, 137);
 }
 
+@media (max-width: 767px) {
+    .header-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+@media (max-width: 767px) {
+    .header-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+ .left-section,
+    .right-section {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .btn-section button {
+        margin: 10px 0;
+    }
+
+    .form-section {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card {
+        width: 100%;
+        margin: 50px auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-input {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header-section {
+        height: 60vh;
+    }
+
+    .left-section,
+    .right-section {
+        width: 45%;
+    }
+    .btn-section button {
+        margin: 20px 0;
+    }
+    .brand-img {
+        width: 100%;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .form-input {
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .header-section {
+        height: 80vh;
+    }
+
+    .left-section,
+    .right-section {
+        width: 35%;
+    }
+
+    .btn-section button {
+        margin: 30px 0;
+    }
+
+    .brand-img {
+        width: 550px;
+    }
+
+    .card {
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 530px;
+    }
+
+    .form-input {
+        width: 310px;
+    }
+}
+}
 

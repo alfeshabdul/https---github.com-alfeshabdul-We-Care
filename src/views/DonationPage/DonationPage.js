@@ -10,6 +10,7 @@ import pytm from './img/pytm.jpg'
 
 
 function Donation(){
+
    const [donars, setDonars] = useState([
       {
          name: 'Rushabh',
@@ -84,33 +85,18 @@ function Donation(){
     return(
        <div>
           <Navbar/>
+          
           <div className="donation-page-container">
+
          <h1 className="donation-page-title">Donation</h1>
 
-         <div className="donation-page-body">
-
-            <div className="show-donar">
-
-               <h2 className="donation-heading">Our Donars</h2>
-                     {
-                        donars.map((donar, index)=>{
-                           const {name, mobile, email,amount} = donar;
-                              return <Donarcard key={index} 
-                              name={donar.name} 
-                              mobile={donar.mobile}
-                              email={donar.email} 
-                              amount={donar.amount}/>
-                        })
-                     }
-            </div>
-
-            <div className="add-donar">
+           <div className="add-donar">
                 
             
                <h2 className="donation-heading">New Donar</h2>
                
                <form>
-                  <label className="input-label"><h3>Enter Name </h3></label>
+                  <label className="input-label"><h3>Donar Name </h3></label>
                   <input type="text" 
                   placeholder="Name" 
                   className="user-input" 
@@ -120,7 +106,7 @@ function Donation(){
                   value={name}
                   />
 
-                  <label className="input-label"><h3>Enter Mobile No </h3></label>
+                  <label className="input-label"><h3>Mobile No </h3></label>
                   <input type="text" 
                   placeholder="Mobile" 
                   className="user-input"
@@ -130,7 +116,7 @@ function Donation(){
                value={mobile}
                />
 
-                 <label className="input-label"><h3>Enter Email </h3></label>
+                 <label className="input-label"><h3>Email Address </h3></label>
                   <input type="email" 
                   placeholder="Email" 
                   className="user-input"
@@ -140,7 +126,7 @@ function Donation(){
                value={email}
                />
 
-                  <label className="input-label"><h3>Enter Amount </h3></label>
+                  <label className="input-label"><h3>Donation Amount </h3></label>
                   <input type="text" 
                   placeholder="Amount" 
                   className="user-input"
@@ -177,7 +163,21 @@ function Donation(){
                </form>
             </div>
          
-         </div> 
+<div className="show-donar">
+
+<h2 className="donation-heading">Our Donars</h2>
+      {
+         donars.map((donar, index)=>{
+            const {name, mobile, email,amount} = donar;
+               return <Donarcard key={index} 
+               name={donar.name} 
+               mobile={donar.mobile}
+               email={donar.email} 
+               amount={donar.amount}/>
+         })
+      }
+</div>
+
          </div> 
           <Footer/>
        </div>
