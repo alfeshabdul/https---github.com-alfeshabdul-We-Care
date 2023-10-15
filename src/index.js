@@ -12,7 +12,7 @@ import Campaigns from './views/CampaignsPage/CampaignsPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter( [
   {path: '/',
    element:<HomePage/>
   },
@@ -27,11 +27,8 @@ const router = createBrowserRouter([
  },
  {path:'/donationPage',
   element:<Donation/>
- }
- {
-  path:'/About',
-  element:<About/>
- }
+ },
+ 
 ]);
 
 root.render(
