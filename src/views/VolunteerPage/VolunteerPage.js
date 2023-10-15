@@ -17,15 +17,15 @@ function Volunteer() {
                   The smallest act of kindness is worth more than the grandest intention. Alone we can do so little, together we can do so much.
                </p>
                <div className="btn-section">
-                  <Link className="nav-item" to='/donationPage'><button>Donate</button></Link>
-                  <button>Join us</button>
+                  <Link to='/donationPage'><button>Donate</button></Link>
+                  <button onClick=''>Join us</button>
                </div>
             </div>
             <div className="right-section">
                <img src={v1} className='brand-img' alt='VolunteerImg' />
             </div>
          </div>
-         <div className="form-section">
+         <div className="form-section" id='form'>
             <div className="card">
                <form>
                   <p className="form-heading">Name</p>
