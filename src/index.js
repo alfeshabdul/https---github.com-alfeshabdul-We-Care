@@ -8,6 +8,7 @@ import Team from './views/TeamPage/TeamPage';
 import Donation from './views/DonationPage/DonationPage';
 import Volunteer from './views/VolunteerPage/VolunteerPage';
 import Campaigns from './views/CampaignsPage/CampaignsPage';
+import ExploreCampaign from './views/ExploreCampaign/ExploreCampaign'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
  },
  {path:'/donationPage',
   element:<Donation/>
+ },
+ {
+  path:'/exploreCampaign',
+  element:<ExploreCampaign />
  }
 ]);
 
