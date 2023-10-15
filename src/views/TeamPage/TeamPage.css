@@ -3,9 +3,9 @@
     padding:70px 0;
   }
   .team-item{
-    background:#f4f5f6;
+    background:#c3dbf3;
     text-align: center;
-    margin:19px 0;
+    margin:20px 0;
     padding:50px 20px 40px 20px;
     border-radius: 8px 8px;
     transition:  all 0.25s ease-in-out;
@@ -20,10 +20,10 @@
     color:#fff;
   }
   .team-iteam h3{
-   margin:20px 0 1px  ;
-   color:454545;
-   font-size:19px;
-   font-weight:700;
+   margin:20px 0 1px;
+   color:#454545;
+   font-size:18px;
+   font-weight:70px;
    text-transform:uppercase;
    transition:all 0.25s  ease-in-out;
    transition:  all 0.25s ease-in-out;
@@ -41,7 +41,7 @@
   }
   .team-info{
     display:block;
-    margin-bottom: o;
+    margin-bottom: 10px;
   }
   .team-info p{
     color:#acacac;
@@ -68,9 +68,7 @@
     max-width:340px;
     padding:6px 6px;
     background-color: #dedede;
-    
   border-radius: 50%;
-  
   }
   ul.team-icon{
     margin-top:25px ;
@@ -116,7 +114,7 @@
     
   }
   .section-title{
-    font-size:70px;
+    font-size:50px;
   }
   
   

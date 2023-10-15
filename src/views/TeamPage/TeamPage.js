@@ -1,8 +1,6 @@
 import React from "react";
-import './TeamPage.css'
 
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
+import css from './TeamPage.css';
 
 
 
@@ -103,7 +101,10 @@ let message='There are many variations of passages of Loren Ipsum available but 
         <h3> vedprakash</h3>
         <div className="team-info">
         <p>head of seo</p>
+
+        <p>“Since you get more joy out of giving joy to others, you should put a  good deal of thought into the happiness that you are able to give.”</p>
         <p>“Since you get more joy out of giving joy to others, you should put a  good deal of thought into the happines that you are able to give.”</p>
+ c1885ad4bc71b18ce7b1dc51ba217b5c4624d4f4
      <ul className="team-icon">
 
         <a href="https://r.search.yahoo.com/_ylt=AwrKCXt.EihlYjEQtae7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153791/RO=10/RU=https%3a%2f%2ftwitter.com%2f%3flang%3den-in/RK=2/RS=YTOSqSaheLX_IaM05nXHyhZu6DQ-" className="twitter">
@@ -153,7 +154,11 @@ let message='There are many variations of passages of Loren Ipsum available but 
         <h3> vedprakash</h3>
         <div className="team-info">
         <p>head of seo</p>
+
+        <p>“Since you get more joy out of giving joy to others, you should put a  good deal of thought into the happiness that you are able to give.”</p>
+
         <p>“Since you get more joy out of giving joy to other, you should put a  good deal of thought into the happines that you are able to give.”</p>
+
      <ul className="team-icon">
 
         <a href="https://r.search.yahoo.com/_ylt=AwrKCXt.EihlYjEQtae7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153791/RO=10/RU=https%3a%2f%2ftwitter.com%2f%3flang%3den-in/RK=2/RS=YTOSqSaheLX_IaM05nXHyhZu6DQ-" className="twitter">
@@ -170,13 +175,14 @@ let message='There are many variations of passages of Loren Ipsum available but 
         </a>&nbsp;
      </ul>
     </div>
+
+</div>
+</div>
+        </div>
+</div>
+</div>
+
    
-</div>
-</div>
-<Footer/>
- </div>
-</div>
-</div>
 
 
   )
