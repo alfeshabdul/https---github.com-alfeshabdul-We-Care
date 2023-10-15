@@ -124,13 +124,12 @@
     background-color: #a5d6d228;
 }
 
-<<<<<<< HEAD
 .form-btn {
     margin-top: 40px;
-=======
+}
+
 .form-btn{
     margin-top: 41px;
->>>>>>> cbca118ce157bba72308f37db2af0dc46fa09e32
     margin-left: 85px;
     background-color: lightseagreen;
     font-size: 20px;
@@ -155,7 +154,6 @@
     border-color: rgb(27, 159, 137);
 }
 
-<<<<<<< HEAD
 @media (max-width: 767px) {
     .header-section {
         flex-direction: column;
@@ -234,6 +232,3 @@
         width: 310px;
     }
 }
-=======
-
->>>>>>> cbca118ce157bba72308f37db2af0dc46fa09e32
