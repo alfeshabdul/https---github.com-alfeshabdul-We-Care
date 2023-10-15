@@ -1,5 +1,6 @@
 import React from 'react';
 import './CampaignCard.css'; 
+import { Link } from 'react-router-dom';
 
 const CampaignCard = ({ campaign }) => {
   return (
@@ -7,11 +8,12 @@ const CampaignCard = ({ campaign }) => {
       <h2>{campaign.title}</h2>
       <p>{campaign.description}</p>
       <div className="campaign-details">
+        <br></br>
         <p><strong>Goal:</strong> {campaign.goal}</p>
         <p><strong>Raised:</strong> {campaign.raised}</p>
       </div>
       <br></br><br></br>
-      <a  className='explore' href='../ExploreCampaign/explorecampaign.js' >Explore</a>
+      <Link className='explore' to='./ExploreCampaign/explorecampaign'> Explore</Link>
       <br></br>
     </div>
   );

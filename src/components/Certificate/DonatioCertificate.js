@@ -1,7 +1,13 @@
 import React from "react";
 import './DonationCertificate.css'
+import Navbar from "../Navbar/Navbar";
+import Footer
+ from "../Footer/Footer";
 function DonationCertificate(){
     return(
+
+        <div> 
+            <Navbar/>
 
         <div className="certificate-container">
             <div className="certificate-header">
@@ -31,6 +37,10 @@ function DonationCertificate(){
             </div>
 
         </div>
+
+        <Footer/>
+       </div>
+       
         
     )
 }

@@ -39,6 +39,7 @@ function Campaigns() {
       
       <div className="campaigns-container">
         <h1 className='heading'>Explore Campaigns</h1>
+        <br></br>
         <div className="campaigns-list">
         {/*<img src={r1} className='r-img' alt='EducationImg'/>*/}
           {campaignsData.map(campaign => (

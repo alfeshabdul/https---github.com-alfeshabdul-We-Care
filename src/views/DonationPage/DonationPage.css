@@ -1,63 +1,77 @@
 .donation-page-container{
-    background-color: #ffe6e6;
+    background-image: url('./img/d1.webp');
     margin-top: -20px;
-    min-height: 90vh;
+    min-height: 100vh;
     display: block;
     
 }
 
 .donation-page-title{
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     color: lightseagreen;
     font-size: 30px;
 }
 
-.donation-page-body{
-    margin-top: -15px;
-    display: flex;
-    justify-content: space-around;
-}
-
 .user-input{
     display: block;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     margin: 15px;
     border-radius: 5px;
     box-shadow: 0 0 5px black;
-    background-color:rgb(222, 248, 247) ;
+    background-color:rgb(237, 246, 246) ;
+    width: 300px;
+    margin-top: 20px;
 }
 
 .add-donar-btn{
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    padding: 10px 50px;
-    margin: 10px auto;
-    background-color: lightseagreen;
+    margin-left: 140px;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 7px 20px;
+    background-color: rgb(7, 113, 108);
     color: white;
-    border-radius: 30px;
-    border: none;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
-    box-shadow: 0 0 5px black;
+    box-shadow: 1px 1px 1px 1px rgb(43, 63, 62);
+    border:3px solid rgb(7, 113, 108); 
+    margin-bottom: 20px;
+    
 }
 
 .donation-heading{
     text-align: center;
     font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.form-heading{
-    background-color: lightseagreen;
-}
 
 .add-donar{
-border: 1px solid black;
-padding: 10px;
-background-color: #ffffe6;
+padding: 20px;
+padding-left: 40px;
+background-color: white;
 box-shadow: 0 0 5px black;
 border-radius: 5px;
+width: 400px;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+height: 650px;
+}
+
+.donation-pay-method{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.pay-method-imgs{
+    height: 50px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
