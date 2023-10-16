@@ -37,7 +37,7 @@
 }
 
 .campaign-card button {
-    background-color: #4caf50;
+    background-color: rgb(7, 113, 108);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -48,10 +48,6 @@
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
-}
-
-.campaign-card button:hover {
-    background-color: #45a049;
 }
 .explore{
     border-radius: 5px 5px 5px 5px;
