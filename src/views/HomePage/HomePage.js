@@ -16,7 +16,7 @@ function HomePage() {
                 </p>
                <div className="btn-section">
                   <Link to='/donationPage'><button>Donate</button></Link>
-                  <button onClick=''>Join us</button>
+                 
                   <Link to='/campaigns'><button>Campaigns</button></Link>
                </div>
             </div>
