@@ -1,5 +1,5 @@
 .donation-page-container{
-    background-image: url('./img/d1.webp');
+    
     margin-top: -20px;
     min-height: 100vh;
     display: block;
@@ -17,16 +17,17 @@
     display: block;
     font-size: 20px;
     padding: 5px;
-    margin: 15px;
+    margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px black;
     background-color:rgb(237, 246, 246) ;
-    width: 300px;
+    width: 700px;
     margin-top: 20px;
+    
 }
 
 .add-donar-btn{
-    margin-left: 110px;
+    margin-left: 350px;
     margin-top: 20px;
     border-radius: 5px 5px 5px 5px;
     padding: 7px 20px;
@@ -37,7 +38,7 @@
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px rgb(43, 63, 62);
     border:3px solid rgb(7, 113, 108); 
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     
 }
 
@@ -51,28 +52,33 @@
 
 .add-donar-container{
 padding: 20px;
-padding-left: 40px;
+padding-left: 120px;
 background-color: white;
 box-shadow: 0 0 5px black;
-border-radius: 5px;
+border-radius: 10px;
 width: 400px;
 margin-top: 20px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 30px;
-height: 780px;
+height: 800px;
+width: 1000px;
+
 }
 
 .donation-pay-method{
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
+    
 }
 
 .pay-method-imgs{
     height: 50px;
     cursor: pointer;
 }
+
+
 
 @media only screen and (max-width: 768px) {
     .donation-page-body {

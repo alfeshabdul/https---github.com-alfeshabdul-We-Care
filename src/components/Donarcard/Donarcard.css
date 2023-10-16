@@ -1,9 +1,9 @@
 .donar-card{
-    width: 400px;
-    padding: 20px;
+    width: 500px;
+    padding: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 5px black;
     margin-left: auto;
@@ -16,7 +16,7 @@
 }
 
 .get-certificate-button{
-    margin-left: 240px;
+    margin-left: 300px;
     text-decoration: none;
     background-color: rgb(7, 113, 108);
     box-shadow: 1px 1px 1px 1px rgb(43, 63, 62);
