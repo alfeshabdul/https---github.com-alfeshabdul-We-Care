@@ -35,7 +35,8 @@ let message='There are many variations of passages of Loren Ipsum available but 
     return( 
 
 
-
+<div>
+        <Navbar/>
 
 
         <div section className="section-white">
@@ -225,6 +226,13 @@ let message='There are many variations of passages of Loren Ipsum available but 
 
    
 
+
+
+
+
+
+<Footer/>
+</div>
 
   )
 }
