@@ -31,7 +31,7 @@ function Team () {
 
 
         
-let message='There are many variations of passages of Loren Ipsum available but the \n majority have suffered alteration in some injected humour.';
+let message=' ';
     return( 
 
 
@@ -113,11 +113,8 @@ let message='There are many variations of passages of Loren Ipsum available but 
         <h3>{name_4}</h3>
         <div className="team-info">
         <p>head of seo</p>
-
-        <li>No.354356</li>
-        E-mail:22@gmail.com
-        
-
+        <li>No.341154</li>
+        <li>Email:@gmail.com</li>
      <ul className="team-icon">
 
         <a href="https://github.com/shivkanya11" className="twitter">
