@@ -12,7 +12,6 @@ export default function Navbar (){
       <Link className="nav-item" to='/campaigns'>Campaigns</Link>
       <Link className="nav-item" to='/teammembers'>Team</Link>
       <Link className="nav-item" to='/donationPage'>Donation</Link>
-      <Link className="nav-item" to='/exploreCampaign'>Explore</Link>
    
    
         </nav>
