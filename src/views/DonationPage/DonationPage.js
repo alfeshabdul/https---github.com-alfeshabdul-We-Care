@@ -90,7 +90,7 @@ function Donation(){
 
          <h1 className="donation-page-title">Donation</h1>
 
-           <div className="add-donar">
+           <div className="add-donar-container">
                 
             
                <h2 className="donation-heading">New Donar</h2>
