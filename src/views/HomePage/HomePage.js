@@ -12,9 +12,9 @@ function HomePage() {
          <Navbar />
          <div className="header-section">
             <div className="left-section">
-               <h1 className="section-heading">This Is Home Page</h1>
+               <h1 className="section-heading">Welcome to WE-CARE</h1>
                <p className="section-desc">
-                Small inititative to help the Society
+                Small inititative to help our Society
                 </p>
                <div className="btn-section">
                   <Link to='/donationPage'><button>Donate</button></Link>
