@@ -3,6 +3,8 @@ import Navbar from "../../components/Navbar/Navbar"
 import v1 from './img/v3.jpg'
 import { Link } from "react-router-dom"
 
+import './HomePage.css'
+
 function HomePage() {
    return (
       <div>
@@ -40,10 +42,10 @@ Ready to join us on this transformative journey? Our homepage offers clear calls
 <br></br> <b className=" heading">Stories of Impact:</b>
 Explore real-life stories from individuals and communities whose lives have been touched by our campaign. From uplifting testimonials to inspiring achievements, these narratives highlight the tangible difference our efforts make. Prepare to be moved and motivated as you read about the positive transformations brought about by WE-CARE.
 
-<br></br> <b className=" heading">Stay Updated, Stay Inspired:</b>
+<br></br> <b className=" heading ">Stay Updated, Stay Inspired:</b>
 Our homepage is also your source for the latest campaign news, upcoming events, and insightful articles. Be sure to check our regularly updated sections to stay informed about our progress and discover new ways to get involved. Follow us on social media platforms to join our growing community of change-makers.
 
-<br></br> <b> Join Us Today:</b>
+<br></br> <b className="heading " >  Join Us Today:</b>
 Every click, every donation, and every act of kindness fuels our campaign's momentum. Together, we can turn aspirations into actions and dreams into realities. Join us today, and together, let's create a world where we can change the Society.
 
 Thank you for visiting WE-CARE - where passion meets purpose, and where your support paves the way for a brighter future.
