@@ -21,7 +21,7 @@ function Team () {
         
 
         let name_1='Alfesh ';
-        let name_2='Pooja ';
+
         let name_3='Vedprakash ';
         let name_4='Shivkanya ';
         let name_5='Vrushali';
@@ -75,32 +75,10 @@ let message='There are many variations of passages of Loren Ipsum available but 
     </div>
 </div>
 </div>
-<div className="col-sm-6 col-md-4">
-    <div className="team-item">
-        <img src={img1} className="team-img "alt="pic"></img>
-        <h3>{name_2} </h3>
-        <div className="team-info">
-        <p>head of seo</p>
-        <li>No.354356</li>
-        E-mail:@gmail.com
-     <ul className="team-icon">
 
-        <a href="https://github.com/poojawalhekar/contact-app" className="twitter">
-        <img src={img4} className="symbol"></img>
-        </a>&nbsp;
-        <a href="https://r.search.yahoo.com/_ylt=AwrPrpqZEyhld7QPlTC7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697154073/RO=10/RU=https%3a%2f%2fwww.instagram.com%2f%3fhl%3den/RK=2/RS=nDiQxbYcsivfErI5xB3dreutVX4-" className="pinterest">
- <img src={img5}className="symbol"></img>
-        </a>&nbsp;
-        <a href="https://www.linkedin.com/in/pooja-walhekar-191563289/" className="facebook">
-<img src={img6}className="symbol"></img>
-        </a>&nbsp;
-        <a href="https://r.search.yahoo.com/_ylt=Awrx.1LdEihlXyAQQ7i7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153886/RO=10/RU=https%3a%2f%2fwww.roadtocode.org%2f/RK=2/RS=YBGqu6wRyL9Uyb7Hc9YLQSVMYpc-" className="dribbble">
-<img src={img7}className="symbol"></img>
-        </a>&nbsp;
-     </ul>
-    </div>
-</div>
-</div>
+
+
+
 <div className="col-sm-6 col-md-4">
     <div className="team-item">
         <img src={img2} className="team-img "alt="pic"></img>
@@ -188,39 +166,7 @@ let message='There are many variations of passages of Loren Ipsum available but 
     </div>
 </div>
 </div>
-<div className="col-sm-6 col-md-4">
-    <div className="team-item">
-        <img src="" className="team-img "alt="pic"></img>
-        <h3> vedprakash</h3>
-        <div className="team-info">
-        <p>head of seo</p>
-
-        <li>No.354356</li>
-        E-mail:@gmail.com
-
-        
-
-     <ul className="team-icon">
-
-        <a href="https://r.search.yahoo.com/_ylt=AwrKCXt.EihlYjEQtae7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153791/RO=10/RU=https%3a%2f%2ftwitter.com%2f%3flang%3den-in/RK=2/RS=YTOSqSaheLX_IaM05nXHyhZu6DQ-" className="twitter">
-        <img src={img4} className="symbol"></img>
-        
-        </a>&nbsp;
-        <a href="https://r.search.yahoo.com/_ylt=AwrPrpqZEyhld7QPlTC7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697154073/RO=10/RU=https%3a%2f%2fwww.instagram.com%2f%3fhl%3den/RK=2/RS=nDiQxbYcsivfErI5xB3dreutVX4-" className="pinterest">
- <img src={img5}className="symbol"></img>
-        </a>&nbsp;
-        <a href="https://r.search.yahoo.com/_ylt=AwrKAu6sEShlWQ0PLl27HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153580/RO=10/RU=https%3a%2f%2fwww.facebook.com%2f/RK=2/RS=SDBmmDXH.xHrSG6t45zo617GcM8-" className="facebook">
-<img src={img6}className="symbol"></img>
-        </a>&nbsp;
-        <a href="https://r.search.yahoo.com/_ylt=Awrx.1LdEihlXyAQQ7i7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153886/RO=10/RU=https%3a%2f%2fwww.roadtocode.org%2f/RK=2/RS=YBGqu6wRyL9Uyb7Hc9YLQSVMYpc-" className="dribbble">
-<img src={img7}className="symbol"></img>
-        </a>&nbsp;
-     </ul>
-    </div>
-
 </div>
-</div>
-        </div>
 </div>
 </div>
 
