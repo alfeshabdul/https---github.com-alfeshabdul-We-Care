@@ -96,6 +96,7 @@ function Donation(){
                <h2 className="donation-heading">New Donar</h2>
                
                <form>
+                  
                   <label className="input-label"><h3>Donar Name </h3></label>
                   <input type="text" 
                   placeholder="Name" 
@@ -161,6 +162,7 @@ function Donation(){
                   </button>
 
                </form>
+               
             </div>
          
 <div className="show-donar">
